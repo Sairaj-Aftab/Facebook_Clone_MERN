@@ -1,0 +1,39 @@
+.small-popup {
+  background-color: #ffffff;
+  height: auto;
+  width: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  box-shadow: 0 12px 28px 0 var(--shadow-2), 0 2px 4px 0 var(--shadow-1);
+  border-radius: 10px 0 10px 10px;
+}
+/* Delete edit btn */
+.delete-edit-btn {
+  display: flex;
+  flex-direction: column;
+  width: 345px;
+  padding: 10px;
+}
+.delete-edit-btn .delete-edit-btn-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.delete-edit-btn .delete-edit-btn-item:hover {
+  background-color: #f2f2f2;
+}
+.delete-edit-btn .icon {
+  background-color: inherit;
+}
+.delete-edit-btn .icon:hover {
+  background-color: #f2f2f2;
+}
+.delete-edit-btn span {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #050505;
+}

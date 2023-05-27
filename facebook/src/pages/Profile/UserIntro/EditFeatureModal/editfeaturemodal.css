@@ -1,0 +1,29 @@
+.edit-featured-modal {
+  padding: 0 20px 20px 20px;
+}
+.edit-featured-modal .img-description {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.edit-featured-modal .img-description img {
+  padding: 10px 0;
+}
+.edit-featured-modal .img-description p {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #65676b;
+}
+.edit-featured-modal button {
+  background-color: #e7f3ff;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: #1877f2;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.edit-featured-modal button:hover {
+  background-color: #dbe7f2;
+}

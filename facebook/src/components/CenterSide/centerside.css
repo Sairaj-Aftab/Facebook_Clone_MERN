@@ -1,0 +1,6 @@
+.center-side {
+  flex: 7;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}

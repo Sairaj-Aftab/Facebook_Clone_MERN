@@ -1,0 +1,137 @@
+.edit-featured-collection {
+  box-sizing: border-box;
+}
+.edit-featured-collection .add-new-section {
+  padding: 12px;
+}
+.edit-featured-collection label .upload-photos-button {
+  background-color: #e7f3ff;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: #1877f2;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+}
+.edit-featured-collection label input {
+  display: none;
+}
+.edit-featured-collection .all-image-box {
+  height: 205px;
+  overflow: auto;
+}
+.edit-featured-collection .all-image-box .all-image-box-inner {
+  padding: 0 0px 0 15px;
+}
+.edit-featured-collection .all-image-box .image-box {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+.edit-featured-collection .all-image-box .image-box img {
+  width: 123px;
+  height: 195px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+/* The container */
+.container {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  bottom: 13px;
+  right: 5px;
+  height: 20px;
+  width: 20px;
+  background-color: inherit;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid blue;
+  border-width: 0 1px 1px 0;
+  transform: rotate(47deg);
+}
+.edit-featured-collection-footer-button {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  padding: 15px 12px;
+  border-top: 1px solid #ddd;
+}
+.edit-featured-collection-footer-button .cancel {
+  width: 140px;
+  padding: 10px;
+  background-color: #e4e6eb;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.edit-featured-collection-footer-button .cancel:hover {
+  background-color: #d8dadf;
+}
+.edit-featured-collection-footer-button .next {
+  width: 180px;
+  padding: 10px;
+  background-color: #1b74e4;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.edit-featured-collection-footer-button .next:disabled {
+  background-color: #e4e6eb;
+  color: #bcc0c4;
+  cursor: no-drop;
+}
+.edit-featured-collection-footer-button .next:disabled:hover {
+  background-color: #e4e6eb;
+}
+.edit-featured-collection-footer-button .next:hover {
+  background-color: #1a6ed8;
+}

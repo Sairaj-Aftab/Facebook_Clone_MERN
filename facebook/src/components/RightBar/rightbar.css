@@ -1,0 +1,9 @@
+.rightbar {
+  flex: 2.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  margin-top: 60px;
+}

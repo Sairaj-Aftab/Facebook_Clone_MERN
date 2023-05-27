@@ -1,0 +1,117 @@
+.all-friends {
+}
+.all-friends-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin: 10px;
+}
+.all-friends-header-icon {
+  font-size: 30px;
+  height: 33px;
+  width: 33px;
+  cursor: pointer;
+}
+.all-friends-header-icon:hover {
+  border-radius: 50%;
+  background-color: #f2f2f2;
+}
+.all-friends-header-inner {
+}
+.all-friends-header-inner p {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: #65676b;
+  cursor: pointer;
+  display: inline-block;
+}
+.all-friends-header-inner p:hover {
+  text-decoration: underline;
+}
+.all-friends-header-inner h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #050505;
+}
+.all-friends-scroll {
+  height: calc(100vh - 125px);
+  overflow: auto;
+}
+.all-friends-search-bar {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.all-friends-search-bar-icon {
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  font-size: 22px;
+}
+.all-friends-search-bar input {
+  width: 100%;
+  background-color: #f0f2f5;
+  height: 35px;
+  border-radius: 50px;
+  border: none;
+  padding-left: 30px;
+}
+.all-friends-title {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: #050505;
+  margin: 10px;
+}
+/* Friends Profile Intro */
+.friends-profile-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 0 5px;
+}
+.friends-profile-intro:hover {
+  background-color: #f2f2f2;
+}
+.friends-profile-intro-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.friends-profile-intro img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.friends-profile-intro-name {
+}
+.friends-profile-intro-name h4 {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #050505;
+}
+.friends-profile-intro-name p {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: #65676b;
+}
+.friends-profile-intro-icon {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.friends-profile-intro-icon:hover {
+  border-radius: 50%;
+  background-color: #f2f2f2;
+}

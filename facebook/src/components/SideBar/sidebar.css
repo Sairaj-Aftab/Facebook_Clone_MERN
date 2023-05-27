@@ -1,0 +1,61 @@
+.sidebar {
+  flex: 2.5;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  margin-top: 60px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+  border-radius: 10px;
+}
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar ul li .link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 5px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  border-radius: 6px;
+}
+.sidebar ul li .link:hover {
+  background-color: var(--fds-gray-25);
+}
+.sidebar ul li .link .title {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--primary-text);
+}
+.sidebar ul .profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-left: 5px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  border-radius: 6px;
+}
+.sidebar ul .profile:hover {
+  background-color: var(--fds-gray-25);
+}
+.sidebar ul li .left-side-profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.sidebar ul li .link img {
+  width: 27px;
+}

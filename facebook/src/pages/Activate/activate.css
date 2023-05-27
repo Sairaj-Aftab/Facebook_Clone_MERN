@@ -1,0 +1,137 @@
+.activate-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.activate-header .logo img {
+  width: 130px;
+}
+.activate-header .right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.activate-header .right-side form {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.activate-header .right-side form input {
+  border: 1px solid #ddd;
+  padding: 10px 0 10px 3px;
+  border-radius: 6px;
+}
+.activate-header .right-side form button {
+  padding: 10px 15px;
+  background-color: blue;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.activate-header .right-side span {
+  color: blue;
+  font-size: 13px;
+  cursor: pointer;
+}
+.activate-header .right-side span:hover {
+  text-decoration: underline;
+}
+
+/* Activate Form in Middle */
+.activate-form {
+  background-color: #f0f2f5;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.activate-form .card {
+  background-color: #ffffff;
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.activate-form .card .title {
+  border-bottom: 1px solid #ddd;
+}
+.activate-form .card .title h1 {
+  padding: 10px 15px;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
+.activate-form .card .content p {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+.activate-form .card .content form .middle-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  gap: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.activate-form .card .content form .middle-content input {
+  flex: 5;
+  font-size: 22px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.activate-form .card .content form .middle-content .email {
+  display: flex;
+  flex-direction: column;
+  flex: 7;
+}
+.activate-form .card .content form .middle-content .email p {
+  padding: 0;
+  font-size: 15px;
+}
+.activate-form .card .content form .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.activate-form .card .content form .bottom span {
+  font-size: 13px;
+  font-weight: 400;
+  color: blue;
+  cursor: pointer;
+}
+.activate-form .card .content form .bottom span:hover {
+  text-decoration: underline;
+}
+.activate-form .card .content form .bottom .button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.activate-form .card .content form .bottom .button .cancel {
+  cursor: pointer;
+  color: black;
+  background-color: #f0f2f5;
+  border-radius: 6px;
+  border: none;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+.activate-form .card .content form .bottom .button .continue {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 6px;
+  border: none;
+  padding: 5px 10px;
+  font-weight: 500;
+}

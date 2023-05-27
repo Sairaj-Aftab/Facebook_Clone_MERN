@@ -1,0 +1,63 @@
+.friends-menu {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 350px;
+  position: fixed;
+  top: 57px;
+  left: 0;
+}
+.friends-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+.friends-menu-header h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #050505;
+}
+.friends-menu-header .friends-menu-header-icon {
+  font-size: 22px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #e4e6eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.friends-menu-items {
+}
+.friends-menu-items ul {
+  display: flex;
+  flex-direction: column;
+}
+.friends-menu-items ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 8px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+}
+.friends-menu-items ul li:hover {
+  background-color: #f0f2f5;
+}
+.friends-menu-items ul li .friends-menu-items-icon {
+  font-size: 22px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #e4e6eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.friends-menu-items ul li span {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: #050505;
+}

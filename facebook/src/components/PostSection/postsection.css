@@ -1,0 +1,221 @@
+.post-section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 1px 2px var(--shadow-2);
+  margin-bottom: 15px;
+}
+.post-section-container {
+}
+.post-section .post-section-container .wraper {
+}
+.post-section .profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px 0 16px;
+}
+.post-section .profile-section .profile-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.post-section .profile-section .more {
+  font-size: 22px;
+  cursor: pointer;
+}
+.post-section .profile-section img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Content section */
+.post-section .content-section {
+  display: flex;
+  flex-direction: column;
+}
+.post-section .content-section p {
+  padding: 10px 16px;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: var(--primary-text);
+}
+.post-section .content-section .image-box {
+  width: 100%;
+}
+.post-section .content-section .image-box img {
+  width: 100%;
+  height: auto;
+}
+
+/* Bottom Section */
+.post-section .bottom-section {
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.post-section .bottom-section .top-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+.post-section .bottom-section .top-side .react-count {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.post-section .bottom-section .top-side .react-count span {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  color: var(--secondary-text);
+}
+.post-section .bottom-section .top-side .com-share-count {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.post-section .bottom-section .top-side .com-share-count span {
+  color: var(--secondary-text);
+}
+.post-section .bottom-section .react {
+  display: flex;
+  align-items: center;
+}
+.post-section .bottom-section .react .like {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #1196f5;
+  color: #ffffff;
+}
+.post-section .bottom-section .react .love {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  color: #ffffff;
+  padding: 2px;
+}
+.post-section .bottom-section .react-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+}
+.post-section .bottom-section .react-option .react-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.post-section .bottom-section .react-option .react-options .div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 4;
+  justify-content: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  cursor: pointer;
+  color: var(--secondary-text);
+  font-weight: 700;
+}
+.post-section .bottom-section .react-option .react-options .div:hover {
+  background-color: #ddd;
+}
+.post-section .bottom-section .react-option .react-options .div .icon {
+  font-size: 23px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+.post-section .bottom-section .profile-options {
+  display: flex;
+  align-items: center;
+}
+.post-section .bottom-section .profile-options img {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* More Settting option or Card section */
+.post-section .profile-section .more {
+  position: relative;
+}
+.post-section .profile-section .more .more-setting {
+  background-color: #ffffff;
+  width: 350px;
+  height: 300px;
+  box-shadow: 0 12px 28px 0 var(--shadow-2), 0 2px 4px 0 var(--shadow-1);
+  padding: 8px;
+  border-radius: 6px 0 6px 6px;
+  position: absolute;
+  right: 8px;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: scroll;
+  z-index: 2;
+}
+.post-section .profile-section .more .more-tri::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0px 25px 30px;
+  border-color: transparent transparent #ffffff transparent;
+  right: 8px;
+  top: 18px;
+  z-index: 3;
+}
+.post-section .profile-section .more .more-setting .first {
+  border-bottom: 1px solid #dbdfe4;
+  padding-bottom: 8px;
+}
+.post-section .profile-section .more .more-setting .second {
+  border-bottom: 1px solid #dbdfe4;
+}
+.post-section .profile-section .more .more-setting ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.post-section .profile-section .more .more-setting .button {
+  background-color: inherit;
+  border: none;
+  display: flex;
+  padding: 3px 5px;
+}
+.post-section .profile-section .more .more-setting .button:hover {
+  background-color: #f5eeee;
+  border-radius: 5px;
+}
+.post-section .profile-section .more .more-setting .button .more-icon {
+  font-size: 25px;
+  margin-right: 10px;
+}
+.post-section .profile-section .more .more-setting .button .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.post-section .profile-section .more .more-setting .button h3 {
+  font-size: 0.9375rem;
+  color: var(--primary-text);
+  font-weight: 700;
+}
+.post-section .profile-section .more .more-setting .button .content p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--secondary-text);
+  margin-top: 3px;
+}

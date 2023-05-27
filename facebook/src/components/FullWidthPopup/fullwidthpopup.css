@@ -1,0 +1,30 @@
+.full-width-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  z-index: 99999;
+}
+.full-width-popup-wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.full-width-popup-close-button-logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.full-width-popup-close-button-logo .icon {
+  color: #ffffff !important;
+  font-size: 25px;
+  cursor: pointer;
+}
+.full-width-popup-close-button-logo .logo {
+  cursor: pointer;
+}

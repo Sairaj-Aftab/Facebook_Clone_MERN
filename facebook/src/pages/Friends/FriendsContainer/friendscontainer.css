@@ -1,0 +1,35 @@
+.friends-container {
+  margin-top: 57px;
+  margin-left: 350px;
+  padding: 40px;
+}
+.friends-container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.friends-container-header h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #050505;
+}
+.friends-container-header button {
+  font-size: 1.0625rem;
+  font-weight: 400;
+  color: #216fdb;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+.friends-container-header button:hover {
+  background-color: #e5e6e9;
+  border-radius: 8px;
+}
+.profile-box-wraper {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
